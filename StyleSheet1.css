@@ -1,0 +1,148 @@
+﻿
+
+.* {
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: lightgrey;
+    width:20%;
+    font-family: 'Fira sans',sans-serif;
+    height:100vh;
+}
+.sidebar nav{
+    padding:20px;  
+    
+}
+.sidebar nav li{
+    list-style:none;
+    font-size:30px;
+    padding:10px 0;
+}
+    .sidebar nav li a {
+        color: Brown;
+        text-decoration: none;
+        font-family: 'georgia';
+    }
+.main{
+    background-color:lightcyan;
+    width:1200px;    
+}
+.container{
+    display:flex;
+}
+.infocontainer {
+    background-color: bisque;
+    height: 58vh;
+    width: 80%;
+    margin: 144px auto;
+    display:flex;
+    justify-content:space-around;
+}
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: bisque;
+}
+.hello{
+    font-size:50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.name {
+    font-size: 65px;
+    font-weight:bold;
+}
+.about {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button {
+
+    color: white;
+    background-color: darksalmon;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 14px 14px;
+    border-radius: 22px;
+    margin: 14px 14px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    
+}
+
+    .button:hover {
+        color: dodgerblue;
+        background-color:white;
+    }
+
+
+.devpic img {
+    height: 322px;
+    width: 287px;
+}
+.contactform {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:0 34px;
+}
+.contactform h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.contactform  form div{
+    padding:12px 0;
+    display:flex;
+    flex-direction:column;
+}
+.contactform form div input{
+    padding: 10px 0 0 0;
+    margin: 6px,0,0,0;
+    width:26vw;
+    border-radius:10px;
+    
+}
+#emailHelp
+{
+font-size:12px;
+color: brown;
+margin: 0 5px;
+}
+#form-check{
+    flex-direction:row;
+}
+
+#form-check-input {
+    width: 24px;
+    margin: 2px 0;
+}
+.blogitem{
+margin:20px;
+font-family:'Fira Sans',sans-serif;
+}
+.blogitemContainer h1 {
+   
+    margin:30px;
+}
+.blogitem p {
+    font-family: 'Fira Sans',sans-serif;
+}
+
+.intro h1, h2 {
+    margin:12px;
+    font-family: 'Fira Sans',sans-serif;
+}
+.intro p {
+    margin:12px;
+    padding:12px 0;
+    font-family: 'Fira Sans',sans-serif;
+}
+@media(max-width:1615px{
+    *{
+        /*background-color:red;*/
+    }
+    .sidebar{
+        transform:translate(-443px,0px)
+        position:absolute;
+    }
+})
+ 
